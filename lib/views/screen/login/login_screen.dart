@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/utils/app_colors.dart';
-import 'package:plant_app/utils/app_images.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -16,6 +15,11 @@ class LoginScreen extends StatelessWidget {
         ),
         backgroundColor: AppColors.primaryColor,
       ),
+      body: const Center(
+              child: Text('This is Login Page.',
+      style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+              ),
+            ),
     );
   }
 }

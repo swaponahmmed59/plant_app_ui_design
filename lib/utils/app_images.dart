@@ -1,7 +1,6 @@
 class AppImages {
   static const String basePath = "assets/images";
   static const String addCard = "$basePath/add-card.png";
-  static const String mas = "$basePath/mas.png";
   static const String codeScan = "$basePath/code-scan.png";
   static const String codeScanTwo = "$basePath/code-scan-two.png";
   static const String love = "$basePath/favorited.png";
